@@ -1,0 +1,77 @@
+body{
+    background-image:url(images/pexels-scott-webb-305821.jpg);
+    background-repeat: no-repeat;
+    background-size: 1970px 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    flex:1;
+    padding: 10px;
+    margin-left: 20px;
+    background:linear-gradient(to right, #99d98c 0%,#34a0a4 100%);
+    width:max-content;
+    font-weight:bold;
+    border:2.5px solid black;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 120px;
+    background: linear-gradient(to right, #99d98c 0%,#34a0a4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+h2{
+    font-size: 50px;
+}
+.topnav{
+    display:flex;
+    overflow:hidden;
+    width: 1280px;
+    border:2.5px solid hidden;
+    margin-left: 317px;
+}
+.topnav a{
+    flex:1;
+    color:black;
+    flex-direction: right;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border:2.5px solid hidden;
+}
+.active{
+    background-color: rgb(5, 69, 14);
+}
+.topnav a:hover{
+    background-color: black;
+    color:aliceblue;
+}
+.topnav a:active{
+    background-color: rgb(5, 69, 14);
+    color:aliceblue;
+}
+.Contact-box{
+    display:flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:rgba(0,0,0,0.6);
+    color:rgb(186, 37, 99);
+    text-align:center;
+    }
+#contact1{
+    flex:1;
+}
+#contact2{
+    flex:1;
+    padding:20px;
+}
+#contact3{
+    flex:1;
+    padding:20px;
+}

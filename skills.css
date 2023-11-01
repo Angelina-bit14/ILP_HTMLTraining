@@ -1,0 +1,79 @@
+body{
+    background-image:url(images/pexels-andreea-ch-1166644.jpg);
+    background-repeat: no-repeat;
+    background-size: 1970px 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    flex:1;
+    padding: 10px;
+    font-weight:bold;
+    margin-left: 20px;
+    background:linear-gradient(to right, #99d98c 0%,#34a0a4 100%);
+    width:max-content;
+    border:2.5px solid black;
+}
+.topnav{
+    display:flex;
+    overflow:hidden;
+    width: 1280px;
+    border:2.5px solid hidden;
+    margin-left: 317px;
+}
+.topnav a{
+    flex:1;
+    color:black;
+    flex-direction: right;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border:2.5px solid hidden;
+}
+.active{
+    background-color: rgb(5, 69, 14);
+}
+.topnav a:hover{
+    background-color: black;
+    color:aliceblue;
+}
+.topnav a:active{
+    background-color: rgb(5, 69, 14);
+    color:aliceblue;
+}
+.Skill-box{
+    background: rgba(44, 191, 162, 0.3);
+    width:500px;
+    height:auto;
+    margin-left: 550px;
+    margin-top: 150px;
+    border:2.5px dashed black;
+    padding: 50px;
+}
+ul{
+    line-height:40px;
+}
+h2{
+    font-weight:bold;
+    border-bottom: 1.5px solid black;
+}
+.Contact-box{
+display:flex;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background:rgba(0,0,0,0.4);
+color: rgb(186, 37, 99);
+text-align:center;
+}
+#contact1{
+    flex:1;
+}
+#contact2{
+    flex:1;
+    padding:20px;
+}
+#contact3{
+    flex:1;
+    padding:20px;
+}

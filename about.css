@@ -1,0 +1,98 @@
+body{
+    background-image:url(images/pexels-scott-webb-305821.jpg);
+    background-repeat: no-repeat;
+    background-size: 1970px 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    flex:1;
+    padding: 10px;
+    margin-left: 20px;
+    background:linear-gradient(to right, #99d98c 0%,#34a0a4 100%);
+    width:max-content;
+    font-weight:bold;
+    border:2.5px solid black;
+}
+.topnav{
+    display:flex;
+    overflow:hidden;
+    width: 1280px;
+    border:2.5px solid hidden;
+    margin-left: 317px;
+}
+.topnav a{
+    flex:1;
+    color:black;
+    flex-direction: right;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border:2.5px solid hidden;
+}
+.active{
+    background-color: rgb(5, 69, 14);
+}
+.topnav a:hover{
+    background-color: black;
+    color:aliceblue;
+}
+.topnav a:active{
+    background-color: rgb(5, 69, 14);
+    color:aliceblue;
+}
+.About-box{
+    background: rgba(44, 191, 162, 0.3);
+    width:900px;
+    height:400px;
+    margin-left: 400px;
+    margin-top: 20px;
+    border:2.5px dashed black;
+    padding: 50px;
+    font-size:20px;
+}
+h2{
+    left:70px;
+    border-bottom: 2.5px solid black;
+}
+.Within-box{
+    display:flex;
+}
+
+#text-in-box{
+    flex:1;
+    font-size: 25px;
+    line-height: 50px;
+}
+.container-img
+{
+    flex:1;
+    left:50px;
+    padding-left: 50px;
+    width:100px;
+    height:200px;
+}
+img{
+    width:250px;
+    height:300px;
+}
+.Contact-box{
+    display:flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:rgba(0,0,0,0.4);
+    color: rgb(186, 37, 99);
+    text-align:center;
+    }
+    #contact1{
+        flex:1;
+    }
+    #contact2{
+        flex:1;
+        padding:20px;
+    }
+    #contact3{
+        flex:1;
+        padding:20px;
+    }
